@@ -9,6 +9,7 @@
         width: 70%;
       }
       .content {
+        margin-top: 20px;
         width: 70%;
       }
       label {
@@ -37,16 +38,37 @@
       <form action="#" method="post">
         <div class="content">
           <p>How satisfies were you with the event?</p>
-          <label for="1" style="margin-left: 60px">1</label>
-          <label for="2">2</label> <label for="3">3</label
-          ><label for="4">4</label> <label for="5">5</label><br />
-          <span>Not very</span>
-          <input type="radio" id="1" name="satisfy" value="1" />
-          <input type="radio" id="2" name="satisfy" value="2" />
-          <input type="radio" id="3" name="satisfy" value="3" />
-          <input type="radio" id="4" name="satisfy" value="4" />
-          <input type="radio" id="5" name="satisfy" value="5" />
-          <span>Very much</span>
+
+          <table>
+            <tr>
+              <th></th>
+              <th><label for="1">1</label></th>
+              <th><label for="2">2</label></th>
+              <th><label for="3">3</label></th>
+              <th><label for="4">4</label></th>
+              <th><label for="5">5</label></th>
+              <th></th>
+            </tr>
+            <tr>
+              <th>Not very</th>
+              <td>
+                <input type="radio" id="1" name="eventsatisfy" value="1" />
+              </td>
+              <td>
+                <input type="radio" id="2" name="eventsatisfy" value="2" />
+              </td>
+              <td>
+                <input type="radio" id="3" name="eventsatisfy" value="3" />
+              </td>
+              <td>
+                <input type="radio" id="4" name="eventsatisfy" value="4" />
+              </td>
+              <td>
+                <input type="radio" id="5" name="eventsatisfy" value="5" />
+              </td>
+              <th>Very much</th>
+            </tr>
+          </table>
         </div>
 
         <div class="content">
@@ -272,6 +294,10 @@
         <div class="content">
           <p>Name (optional)</p>
           <input type="text" name="optname" placeholder="Short answer text" />
+        </div>
+
+        <div class="content">
+          <input type="submit" value="Submit Feedback" />
         </div>
       </form>
     </div>
