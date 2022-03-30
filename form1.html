@@ -65,7 +65,213 @@
 
         <div class="content">
           <p>What were your key take aways from this event?</p>
-          <input type="text" />
+          <input type="text" placeholder="Short answer text" />
+        </div>
+
+        <div class="content">
+          <p>How satisfied were you with the logistics?</p>
+          <small>1= Very dissatisfied 5 = Very satisfied</small>
+          <table>
+            <tr>
+              <th></th>
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+              <th>N/A</th>
+            </tr>
+            <tr>
+              <th>Accomodation</th>
+              <td><input type="radio" id="1" name="logistics" value="1" /></td>
+              <td><input type="radio" id="2" name="logistics" value="2" /></td>
+              <td><input type="radio" id="3" name="logistics" value="3" /></td>
+              <td><input type="radio" id="4" name="logistics" value="4" /></td>
+              <td><input type="radio" id="5" name="logistics" value="5" /></td>
+              <td><input type="radio" id="n" name="logistics" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Welcome kit</th>
+              <td><input type="radio" id="1" name="wk" value="1" /></td>
+              <td><input type="radio" id="2" name="wk" value="2" /></td>
+              <td><input type="radio" id="3" name="wk" value="3" /></td>
+              <td><input type="radio" id="4" name="wk" value="4" /></td>
+              <td><input type="radio" id="5" name="wk" value="5" /></td>
+              <td><input type="radio" id="n" name="wk" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Communication</th>
+              <td><input type="radio" id="1" name="comm" value="1" /></td>
+              <td><input type="radio" id="2" name="comm" value="2" /></td>
+              <td><input type="radio" id="3" name="comm" value="3" /></td>
+              <td><input type="radio" id="4" name="comm" value="4" /></td>
+              <td><input type="radio" id="5" name="comm" value="5" /></td>
+              <td><input type="radio" id="n" name="comm" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Transportation</th>
+              <td><input type="radio" id="1" name="transp" value="1" /></td>
+              <td><input type="radio" id="2" name="transp" value="2" /></td>
+              <td><input type="radio" id="3" name="transp" value="3" /></td>
+              <td><input type="radio" id="4" name="transp" value="4" /></td>
+              <td><input type="radio" id="5" name="transp" value="5" /></td>
+              <td><input type="radio" id="n" name="transp" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Welcome action</th>
+              <td><input type="radio" id="1" name="wel" value="1" /></td>
+              <td><input type="radio" id="2" name="wel" value="2" /></td>
+              <td><input type="radio" id="3" name="wel" value="3" /></td>
+              <td><input type="radio" id="4" name="wel" value="4" /></td>
+              <td><input type="radio" id="5" name="wel" value="5" /></td>
+              <td><input type="radio" id="n" name="wel" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Venue</th>
+              <td><input type="radio" id="1" name="ven" value="1" /></td>
+              <td><input type="radio" id="2" name="ven" value="2" /></td>
+              <td><input type="radio" id="3" name="ven" value="3" /></td>
+              <td><input type="radio" id="4" name="ven" value="4" /></td>
+              <td><input type="radio" id="5" name="ven" value="5" /></td>
+              <td><input type="radio" id="n" name="ven" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Activities</th>
+              <td><input type="radio" id="1" name="activi" value="1" /></td>
+              <td><input type="radio" id="2" name="activi" value="2" /></td>
+              <td><input type="radio" id="3" name="activi" value="3" /></td>
+              <td><input type="radio" id="4" name="activi" value="4" /></td>
+              <td><input type="radio" id="5" name="activi" value="5" /></td>
+              <td><input type="radio" id="n" name="activi" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Closing ceremenoy</th>
+              <td><input type="radio" id="1" name="closcer" value="1" /></td>
+              <td><input type="radio" id="2" name="closcer" value="2" /></td>
+              <td><input type="radio" id="3" name="closcer" value="3" /></td>
+              <td><input type="radio" id="4" name="closcer" value="4" /></td>
+              <td><input type="radio" id="5" name="closcer" value="5" /></td>
+              <td><input type="radio" id="n" name="closcer" value="na" /></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="content">
+          <p>Additional feedback on logistics?</p>
+          <input type="text" name="fblogist" placeholder="Short answer text" />
+        </div>
+
+        <div class="content">
+          <p>Which sessions did you find most relevant?</p>
+          <table>
+            <tr>
+              <th></th>
+              <th>Extremely Irrelevant</th>
+              <th>Not relevant</th>
+              <th>Relevant</th>
+              <th>Very relevant</th>
+              <th>Extremely relevant</th>
+              <th>Did not attend</th>
+            </tr>
+            <tr>
+              <th>Welcome activity</th>
+              <td>
+                <input type="radio" id="1" name="wellcomeact" value="1" />
+              </td>
+              <td>
+                <input type="radio" id="2" name="wellcomeact" value="2" />
+              </td>
+              <td>
+                <input type="radio" id="3" name="wellcomeact" value="3" />
+              </td>
+              <td>
+                <input type="radio" id="4" name="wellcomeact" value="4" />
+              </td>
+              <td>
+                <input type="radio" id="5" name="wellcomeact" value="5" />
+              </td>
+              <td>
+                <input type="radio" id="n" name="wellcomeact" value="na" />
+              </td>
+            </tr>
+            <tr>
+              <th>Speaker #1</th>
+              <td><input type="radio" id="1" name="speaker1" value="1" /></td>
+              <td><input type="radio" id="2" name="speaker1" value="2" /></td>
+              <td><input type="radio" id="3" name="speaker1" value="3" /></td>
+              <td><input type="radio" id="4" name="speaker1" value="4" /></td>
+              <td><input type="radio" id="5" name="speaker1" value="5" /></td>
+              <td><input type="radio" id="n" name="speaker1" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Activity #1</th>
+              <td><input type="radio" id="1" name="activ1" value="1" /></td>
+              <td><input type="radio" id="2" name="activ1" value="2" /></td>
+              <td><input type="radio" id="3" name="activ1" value="3" /></td>
+              <td><input type="radio" id="4" name="activ1" value="4" /></td>
+              <td><input type="radio" id="5" name="activ1" value="5" /></td>
+              <td><input type="radio" id="n" name="activ1" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Speaker #2</th>
+              <td><input type="radio" id="1" name="speaker2" value="1" /></td>
+              <td><input type="radio" id="2" name="speaker2" value="2" /></td>
+              <td><input type="radio" id="3" name="speaker2" value="3" /></td>
+              <td><input type="radio" id="4" name="speaker2" value="4" /></td>
+              <td><input type="radio" id="5" name="speaker2" value="5" /></td>
+              <td><input type="radio" id="n" name="speaker2" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Activity #2</th>
+              <td><input type="radio" id="1" name="activ2" value="1" /></td>
+              <td><input type="radio" id="2" name="activ2" value="2" /></td>
+              <td><input type="radio" id="3" name="activ2" value="3" /></td>
+              <td><input type="radio" id="4" name="activ2" value="4" /></td>
+              <td><input type="radio" id="5" name="activ2" value="5" /></td>
+              <td><input type="radio" id="n" name="activ2" value="na" /></td>
+            </tr>
+            <tr>
+              <th>Closing activity</th>
+              <td><input type="radio" id="1" name="closact" value="1" /></td>
+              <td><input type="radio" id="2" name="closact" value="2" /></td>
+              <td><input type="radio" id="3" name="closact" value="3" /></td>
+              <td><input type="radio" id="4" name="closact" value="4" /></td>
+              <td><input type="radio" id="5" name="closact" value="5" /></td>
+              <td><input type="radio" id="n" name="closact" value="na" /></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="content">
+          <p>How satisfies were you with the session content?</p>
+          <small>Both presented and pre-read material</small><br />
+          <label for="1" style="margin-left: 40px">1</label>
+          <label for="2">2</label> <label for="3">3</label
+          ><label for="4">4</label> <label for="5">5</label><br />
+          <span>Poor</span>
+          <input type="radio" id="1" name="satisfy" value="1" />
+          <input type="radio" id="2" name="satisfy" value="2" />
+          <input type="radio" id="3" name="satisfy" value="3" />
+          <input type="radio" id="4" name="satisfy" value="4" />
+          <input type="radio" id="5" name="satisfy" value="5" />
+          <span>Excellent</span>
+        </div>
+
+        <div class="content">
+          <p>
+            Any additional comments regarding the sessions or overall agenda?
+          </p>
+          <input type="text" name="agenda" placeholder="Short answer text" />
+        </div>
+
+        <div class="content">
+          <p>Any overall feedback for the event?</p>
+          <input type="text" name="fboverall" placeholder="Short answer text" />
+        </div>
+
+        <div class="content">
+          <p>Name (optional)</p>
+          <input type="text" name="optname" placeholder="Short answer text" />
         </div>
       </form>
     </div>
